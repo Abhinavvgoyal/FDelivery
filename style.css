@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-bar{
+    padding :5px;
+    width: 100%;
+    display: flex;
+    background-color: #FDECEC;
+    justify-content: space-around;
+    align-items:center;
+    position: fixed;
+    top: 0%;
+}
+.nav-col-1{
+    padding :5px;
+    justify-content: space-around;
+}
+.nav-col-2{
+    padding :10px;
+    margin: 5px;
+    justify-content: space-around;
+}
+.nav-col-3{
+    padding :5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+.nav-items{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#search-item{
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+}
+#sign-in{
+    background-color: #F94A3D;
+    color: aliceblue;
+    border-color: #F94A3D;
+    box-shadow: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    
+}
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FDECEC;
+    margin:10px;
+}
+.orange{
+    color:#F94A3D;
+    font-size: 50px;
+}
+h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    height: 96px;
+    top: 531px;
+    left: 254px;
+
+}
+.button2{
+    color: aliceblue;
+    width: 174px;
+    height: 60px;
+    top: 660px;
+    left: 254px;
+    border-radius: 16px;
+    border: none;
+    background-color: #F94A3D;
+  
+
+}
+.sec2{
+    display: flex;
+    margin: auto;
+    justify-content:space-around;
+}
+.food-items{
+    margin-top: 30px;
+    border-radius: 50px;
+    border-color: khaki;
+    border-width: 2px;
+}
+.sec3{
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    margin-left: 300px;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+}
+.sec4{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer{
+    background-color: #fdf3f4;
+}
+
+
+.footer-cont{
+    padding: 1rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80vw;
+    align-items: center;
+}
+.footer-items{
+    gap: 2rem;
+    position: relative;
+    max-width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.first-cont{
+    gap: 2rem;
+}
+.footer-items > ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
