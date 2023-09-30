@@ -5,15 +5,20 @@
     font-family: 'Poppins', sans-serif;
     
 }
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #fdf3f4;
+}
 .nav-bar{
-    padding :5px;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
-    background-color: #FDECEC;
-    justify-content: space-around;
-    align-items:center;
-    position: fixed;
-    top: 0%;
+    justify-content: space-evenly;
+    padding: 0.5rem 0;
+}
+.nav-bar img{
+    object-fit: contain;
 }
 .nav-col-1{
     padding :5px;
@@ -52,11 +57,12 @@
     
 }
 .sec1{
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FDECEC;
-    margin:10px;
+    justify-content: space-between;
+    padding: 5rem 0;
+    gap: 100px;
 }
 .orange{
     color:#F94A3D;
@@ -89,8 +95,10 @@ p{
 }
 .sec2{
     display: flex;
+    width: 80%;
     margin: auto;
-    justify-content:space-around;
+    justify-content:space-between;
+    gap: 50px;
 }
 .food-items{
     margin-top: 30px;
@@ -102,6 +110,10 @@ p{
     justify-content: space-around;
     align-items: center;
 }
+.sec3 h2{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
 .menu{
     display: flex;
     justify-content: space-around;
@@ -111,12 +123,34 @@ p{
 }
 .menu-items{
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+.menu-items  img {
+   object-fit: contain;
+   width: 200px;
+   height: 300px
 }
 .sec4{
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    padding: 5rem 0;
 
+}
+.reviews{
+    width:40%;
+}
+.sec5{
+    width: 80%;
+    margin: auto;
+}
+.sec5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 footer{
